@@ -10,7 +10,7 @@ Please note that the name of the plugin when used is `clickhouse`, it only suppo
 
     output {
       clickhouse {
-        headers => ["Authorization", "Basic YWRtaW46cGFzc3dvcmQxMjM="]
+        #headers => ["Authorization", "Basic YWRtaW46cGFzc3dvcmQxMjM="]
         http_hosts => ["http://your.clickhouse1/", "http://your.clickhouse2/", "http://your.clickhouse3/"]
         table => "table_name"
       }
